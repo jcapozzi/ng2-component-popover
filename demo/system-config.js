@@ -17,7 +17,7 @@ System.config({
 
 		// other libraries
 		'rxjs':                       'npm:rxjs',
-		'ng2-component-popover': 'npm:ng2-component-popover/bundles/ng2-component-popover.umd.js'
+		'ng2-component-popover': 'npm:ng2-component-popover/dist/bundles/ng2-component-popover.umd.js'
 	},
 	// packages tells the System loader how to load when no filename and/or no extension
 	packages: {
