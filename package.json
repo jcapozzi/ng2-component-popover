@@ -1,0 +1,60 @@
+{
+  "name": "ng2-component-popover",
+  "version": "1.0.0",
+  "description": "Angular2 component popover",
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "karma": "karma start karma.conf.js",
+    "test": "concurrently \"npm run tsc:w\" \"npm run karma\"",
+    "rollup": "gulp rollup",
+    "build": "gulp demo:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcapozzi/ng2-component-popover.git"
+  },
+  "keywords": [
+    "angular2",
+    "ng2",
+    "popover"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Joe Capozzi",
+  "license": "MIT",
+  "homepage": "https://github.com/jcapozzi/ng2-component-popover",
+  "devDependencies": {
+    "@angular/common": "^2.2.0",
+    "@angular/compiler": "^2.2.0",
+    "@angular/core": "^2.2.0",
+    "@angular/http": "^2.2.0",
+    "@angular/platform-browser": "^2.2.0",
+    "@angular/platform-browser-dynamic": "^2.2.0",
+    "@types/chai": "^3.4.34",
+    "@types/core-js": "^0.9.34",
+    "@types/jasmine": "^2.5.38",
+    "@types/node": "^6.0.46",
+    "concurrently": "^3.1.0",
+    "core-js": "^2.4.1",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-debug": "^3.0.0",
+    "gulp-sourcemaps": "^2.2.0",
+    "gulp-typescript": "^3.1.2",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.3.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-jasmine": "^1.0.2",
+    "merge2": "^1.0.2",
+    "reflect-metadata": "^0.1.8",
+    "rollup-stream": "^1.14.0",
+    "rxjs": "^5.0.0-rc.2",
+    "systemjs": "^0.19.41",
+    "systemjs-plugin-babel": "0.0.17",
+    "typescript": "^2.0.7",
+    "vinyl-source-stream": "^1.1.0",
+    "zone.js": "^0.6.26"
+  }
+}

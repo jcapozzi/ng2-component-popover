@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"declaration": true,
+    	"stripInternal": true,
+		"module": "es2015",
+		"target": "es5",
+		"noImplicitAny": false,
+		"rootDir": ".",
+		"outDir": "dist",
+		"sourceMap": true,
+		"inlineSources": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"suppressImplicitAnyIndexErrors": false
+	},
+	"exclude": [
+		"node_modules",
+		"demo",
+		"**/*.spec.ts"
+	]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "ng2-popover-demo",
+  "version": "1.0.0",
+  "description": "Angular2 popover demo",
+  "scripts": {
+    "start": "gulp demo:build && concurrently \"npm run tsc:w\" \"npm run lite\"",
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "postinstall": "gulp demo:build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcapozzi/ng2-popover.git"
+  },
+  "keywords": [
+    "angular2"
+  ],
+  "author": "Joe Capozzi",
+  "license": "MIT",
+  "homepage": "https://github.com/jcapozzi/ng2-popover",
+  "devDependencies": {
+    "@angular/common": "^2.2.0",
+    "@angular/compiler": "^2.2.0",
+    "@angular/core": "^2.2.0",
+    "@angular/platform-browser": "^2.2.0",
+    "@angular/platform-browser-dynamic": "^2.2.0",
+    "bootstrap": "^3.3.7",
+    "concurrently": "^3.1.0",
+    "core-js": "^2.4.1",
+    "lite-server": "^2.2.2",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "^5.0.0-rc.2",
+    "systemjs": "^0.19.40",
+    "typescript": "^2.0.7",
+    "zone.js": "^0.6.26"
+  }
+}

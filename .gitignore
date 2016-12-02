@@ -1,0 +1,11 @@
+/node_modules
+/typings
+/dist
+/demo/node_modules
+/demo/typings
+/.vscode
+/src/*.js
+/demo/app/**/*.js*
+index.js*
+npm-debug.log
+/coverage
