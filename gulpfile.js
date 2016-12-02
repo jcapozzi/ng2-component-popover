@@ -41,16 +41,6 @@ gulp.task( 'typescript:compile', [ 'clean:dist' ], function( done ) {
 	]);
 });
 
-gulp.task( 'demo:build', [ 'rollup' ], function() {
-	// manually install package
-	gulp.src( 'dist/**/*' )
-		.pipe( gulp.dest( 'demo/node_modules/ng2-component-popover' ) );
-});
-
-gulp.task( 'watch:src', function() {
-	gulp.watch( [ './index.ts', './src/**/*.ts' ], [ 'demo:build' ] );
-});
-
 function osPath( path ) {
 	return /^win/.test( os.platform() ) ? path+'.cmd' : path;
 }
