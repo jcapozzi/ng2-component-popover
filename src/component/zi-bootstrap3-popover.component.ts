@@ -85,6 +85,10 @@ export class ZIBootstrap3PopoverComponent implements PopoverComponent, AfterView
 			this._show = show;
 			this.closeOnLeave = false;
 			this.renderer.setElementStyle( this.popover.nativeElement, "display", "table" );
+			// temp fix to allow animation
+			setTimeout( () => { 
+				this.renderer.setElementStyle( this.popover.nativeElement, "opacity", "1" );
+			}, 0 );
 		} else {
 			if ( !this.focused || this.closeOverride ) {
 				this.closeOverride = false;
@@ -152,7 +156,6 @@ export class ZIBootstrap3PopoverComponent implements PopoverComponent, AfterView
 			}
 		}
 
-		this.renderer.setElementStyle( this.popover.nativeElement, "opacity", "1" );
 		this.renderer.setElementClass( this.popover.nativeElement, 'left', false );
 		this.renderer.setElementClass( this.popover.nativeElement, 'right', false );
 		this.renderer.setElementClass( this.popover.nativeElement, 'top', false );
