@@ -18,20 +18,21 @@
   "author": "Joe Capozzi",
   "license": "MIT",
   "devDependencies": {
-    "@angular/common": "^2.2.0",
-    "@angular/compiler": "^2.2.0",
-    "@angular/core": "^2.2.0",
-    "@angular/platform-browser": "^2.2.0",
-    "@angular/platform-browser-dynamic": "^2.2.0",
+    "@angular/common": "^2.2.4",
+    "@angular/compiler": "^2.2.4",
+    "@angular/core": "^2.2.4",
+    "@angular/http": "^2.2.4",
+    "@angular/platform-browser": "^2.2.4",
+    "@angular/platform-browser-dynamic": "^2.2.4",
     "bootstrap": "^3.3.7",
     "concurrently": "^3.1.0",
     "core-js": "^2.4.1",
     "lite-server": "^2.2.2",
     "ng2-component-popover": "^1.0.1",
     "reflect-metadata": "^0.1.8",
-    "rxjs": "^5.0.0-rc.2",
+    "rxjs": "^5.0.0-beta.12",
     "systemjs": "^0.19.40",
-    "typescript": "^2.0.7",
+    "typescript": "^2.0.10",
     "zone.js": "^0.6.26"
   }
 }
