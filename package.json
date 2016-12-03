@@ -1,13 +1,15 @@
 {
   "name": "ng2-component-popover",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular2 component popover",
   "scripts": {
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "karma": "karma start karma.conf.js",
     "test": "concurrently \"npm run tsc:w\" \"npm run karma\"",
-    "rollup": "gulp rollup"
+    "rollup": "gulp rollup",
+    "pre-publish": "gulp prepare-publish",
+    "dist-publish": "npm publish --prefix ./dist"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,7 @@
     "ng2",
     "popover"
   ],
-  "files": [
-    "dist"
-  ],
+  "main": "index.js",
   "author": "Joe Capozzi",
   "license": "MIT",
   "homepage": "https://github.com/jcapozzi/ng2-component-popover",
