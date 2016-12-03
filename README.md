@@ -59,7 +59,7 @@ triggerRef: Trigger = Trigger.CLICK;
 
 Trigger Types
 ```typescript
-Trigger.TOP
+Trigger.CLICK
 Trigger.FOCUSED
 ```
 
@@ -76,13 +76,14 @@ Location.BOTTOM
 Location.LEFT
 ```
 
-*Bootstrap3Configuration* constructor params
-1. *key* - string: key of popover target
-2. *title* - string: title of popover
-3. *content* - string: content of popover
-4. *location* - Location: location of popover
-5. *closer* - boolean: should include close button in footer
-6. *duration* - number: milliseconds to show popover before closing
+*Bootstrap3Configuration* constructor params:
+
+1.  *key* - string: key of popover target
+2.  *title* - string: title of popover
+3.  *content* - string: content of popover
+4.  *location* - Location: location of popover
+5.  *closer* - boolean: should include close button in footer
+6.  *duration* - number: milliseconds to show popover before closing
 
 *[zi-popover-ref]="popoverRef"* - assign target a popover component refrence to use when triggered
 
@@ -100,7 +101,7 @@ Example:
 
 ```typescript
 @ViewChild( 'target' )
-	private targetRef: ElementRef;
+private targetRef: ElementRef;
 
 @ViewChild( ZIBootstrap3PopoverComponent )
 private popoverRef: ZIBootstrap3PopoverComponent;
