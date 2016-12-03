@@ -3,6 +3,8 @@ ng2-component-popover
 
 An angular2 custom component popover with a bootstrap3 implementation.  Focus or click triggering along with programmatic triggering.
 
+DEMO - https://plnkr.co/edit/jiVZozrHLIxmcwXWNOdx?p=preview
+
 install package - *npm i ng2-component-popover --save*
 
 ### systemjs
