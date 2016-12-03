@@ -41,6 +41,19 @@ gulp.task( 'typescript:compile', [ 'clean:dist' ], function( done ) {
 	]);
 });
 
+gulp.task( 'prepare-publish', [ 'rollup' ], function() {
+	gulp.src( [ 'package.json', 'LICENSE', 'README.md' ] )
+		.pipe( gulp.dest( 'dist' ) );
+});
+
+// install built package into demo for local testing
+gulp.task( 'install:demo', [ 'prepare-publish' ], function() {
+	del( [ 'demo/node_modules/ng2-component-popover' ] );
+	gulp.src( 'dist/**/*' )
+		.pipe( debug( { title: "demo install files" } ) )
+		.pipe( gulp.dest( 'demo/node_modules/ng2-component-popover' ) );
+});
+
 function osPath( path ) {
 	return /^win/.test( os.platform() ) ? path+'.cmd' : path;
 }
