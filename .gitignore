@@ -9,3 +9,4 @@
 index.js*
 npm-debug.log
 /coverage
+/publish

@@ -5,7 +5,7 @@ export default {
   moduleName: 'ng2.component.popover',
   globals: {
     '@angular/core': 'ng.core',
-	'@angular/common': 'ng.common',
+	  '@angular/common': 'ng.common',
     'rxjs/BehaviorSubject': 'Rx'
   }
 };

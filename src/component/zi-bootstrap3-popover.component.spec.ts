@@ -72,7 +72,6 @@ describe( 'test -> zi-bootstrap3-popover.component', ()=> {
 		expect( renderer.setElementClass ).toHaveBeenCalledWith( elementRef.nativeElement, 'top', false );
 		expect( renderer.setElementClass ).toHaveBeenCalledWith( elementRef.nativeElement, 'bottom', false );
 		// should set opactiy
-		expect( renderer.setElementStyle ).toHaveBeenCalledWith( elementRef.nativeElement, 'opacity', '1' );
 		// should set location class to new location
 		expect( renderer.setElementClass ).toHaveBeenCalledWith( elementRef.nativeElement, 'top', true );
 		// should set positioning
