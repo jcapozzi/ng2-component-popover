@@ -1,6 +1,6 @@
 {
   "name": "ng2-component-popover",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Angular2 component popover",
   "scripts": {
     "tsc": "tsc",
