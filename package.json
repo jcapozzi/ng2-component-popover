@@ -8,8 +8,7 @@
     "karma": "karma start karma.conf.js",
     "test": "concurrently \"npm run tsc:w\" \"npm run karma\"",
     "rollup": "gulp rollup",
-    "pre-publish": "gulp prepare-publish",
-    "dist-publish": "npm publish --prefix ./dist"
+    "pre-publish": "gulp prepare-publish"
   },
   "repository": {
     "type": "git",
