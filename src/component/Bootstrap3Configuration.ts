@@ -1,4 +1,4 @@
-import { PopoverConfiguration } from '../PopoverConfiguration';
+import { PopoverConfiguration } from './../PopoverConfiguration';
 
 export class Bootstrap3Configuration implements PopoverConfiguration {
 	key: string;

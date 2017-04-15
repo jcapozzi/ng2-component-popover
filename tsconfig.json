@@ -7,6 +7,7 @@
 		"target": "es5",
 		"noImplicitAny": false,
 		"rootDir": ".",
+		"lib": [ "es6", "dom"],
 		"outDir": "dist",
 		"sourceMap": true,
 		"inlineSources": true,

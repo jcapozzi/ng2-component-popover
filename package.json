@@ -24,12 +24,13 @@
   "license": "MIT",
   "homepage": "https://github.com/jcapozzi/ng2-component-popover",
   "devDependencies": {
-    "@angular/common": "^2.2.4",
-    "@angular/compiler": "^2.2.4",
-    "@angular/core": "^2.2.4",
-    "@angular/http": "^2.2.4",
-    "@angular/platform-browser": "^2.2.4",
-    "@angular/platform-browser-dynamic": "^2.2.4",
+    "@angular/animations": "^4.0.2",
+    "@angular/common": "^4.0.2",
+    "@angular/compiler": "^4.0.2",
+    "@angular/core": "^4.0.2",
+    "@angular/http": "^4.0.2",
+    "@angular/platform-browser": "^4.0.2",
+    "@angular/platform-browser-dynamic": "^4.0.2",
     "@types/chai": "^3.4.34",
     "@types/core-js": "^0.9.34",
     "@types/jasmine": "^2.5.38",
@@ -48,11 +49,11 @@
     "merge2": "^1.0.2",
     "reflect-metadata": "^0.1.8",
     "rollup-stream": "^1.14.0",
-    "rxjs": "^5.0.0-beta.12",
+    "rxjs": "^5.3.0",
     "systemjs": "^0.19.41",
     "systemjs-plugin-babel": "0.0.17",
     "typescript": "^2.0.10",
     "vinyl-source-stream": "^1.1.0",
-    "zone.js": "^0.6.26"
+    "zone.js": "^0.8.5"
   }
 }

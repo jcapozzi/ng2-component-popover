@@ -6,6 +6,7 @@ export default {
   globals: {
     '@angular/core': 'ng.core',
 	  '@angular/common': 'ng.common',
+    '@angular/platform-browser/animations': 'ng.platformBrowser.animations',
     'rxjs/BehaviorSubject': 'Rx'
   }
 };

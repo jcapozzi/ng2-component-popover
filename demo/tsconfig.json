@@ -5,6 +5,7 @@
 		"noImplicitAny": false,
 		"rootDir": ".",
 		"sourceMap": true,
+		"lib": [ "dom", "es6" ],
 		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"moduleResolution": "node",

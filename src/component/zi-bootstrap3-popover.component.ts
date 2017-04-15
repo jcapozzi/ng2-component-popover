@@ -3,13 +3,13 @@ import {
 	ChangeDetectorRef, ChangeDetectionStrategy, HostBinding, HostListener
 } from '@angular/core';
 
-import { PopoverComponent } from '../PopoverComponent';
+import { PopoverComponent } from './../PopoverComponent';
 
-import { PopoverService } from '../PopoverService';
+import { PopoverService } from './../PopoverService';
 
-import { PopoverEvent, Action } from '../PopoverEvent';
+import { PopoverEvent, Action } from './../PopoverEvent';
 
-import { PopoverConfiguration } from '../PopoverConfiguration';
+import { PopoverConfiguration } from './../PopoverConfiguration';
 
 import { Bootstrap3Configuration, Location } from './Bootstrap3Configuration';
 
